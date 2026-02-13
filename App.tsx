@@ -92,7 +92,7 @@ const App: React.FC = () => {
       {/* Utilities */}
       <Lightbox imageUrl={lightboxImage} onClose={() => setLightboxImage(null)} />
       <Toast message={toastMessage} />
-      <audio ref={audioRef} loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" />
+      <audio ref={audioRef} loop src="https://github.com/yellobean090/NITYA/raw/refs/heads/main/Mood%20%E2%99%AB%20Top%20English%20Acoustic%20Love%20Songs%202023%20%F0%9F%8D%83%20Chill%20Music%20Cover%20of%20Popular%20Songs%20%5BNsN3av1ywzc%5D.mp3" />
     </div>
   );
 };
