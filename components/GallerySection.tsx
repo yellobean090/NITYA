@@ -7,10 +7,10 @@ interface GallerySectionProps {
 }
 
 const MEMORIES: PhotoMemory[] = [
-  { id: 1, url: 'https://picsum.photos/seed/muskan1/600/800', caption: 'Muskan ✨' },
-  { id: 2, url: 'https://picsum.photos/seed/muskan2/600/800', caption: 'That smile 💗' },
-  { id: 3, url: 'https://picsum.photos/seed/muskan3/600/800', caption: 'Us 🫶' },
-  { id: 4, url: 'https://picsum.photos/seed/muskan4/600/800', caption: 'Forever vibes ♾️' },
+  { id: 1, url: 'https://picsum.photos/seed/NITYA1/600/800', caption: 'NITYA ✨' },
+  { id: 2, url: 'https://picsum.photos/seed/NITYA2/600/800', caption: 'That smile 💗' },
+  { id: 3, url: 'https://picsum.photos/seed/NITYA3/600/800', caption: 'Us 🫶' },
+  { id: 4, url: 'https://picsum.photos/seed/NITYA4/600/800', caption: 'Forever vibes ♾️' },
 ];
 
 export const GallerySection: React.FC<GallerySectionProps> = ({ onPhotoClick }) => {

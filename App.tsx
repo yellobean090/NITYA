@@ -20,7 +20,7 @@ const App: React.FC = () => {
   };
 
   const handleYes = () => {
-    showToast("YAY!! 💖 Muskan said YES!");
+    showToast("YAY!! 💖 NITYA said YES!");
     setHeartCount(prev => prev + 50);
     // Visual confetti logic would be handled by a specific event or component
     window.dispatchEvent(new CustomEvent('confetti-burst'));
@@ -57,7 +57,7 @@ const App: React.FC = () => {
           <div className="relative z-10 flex flex-wrap gap-3 items-center justify-between mb-6">
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 text-xs md:text-sm text-white/70">
               <span className="w-2.5 h-2.5 rounded-full bg-[#ff5fa2] shadow-[0_0_12px_rgba(255,95,162,0.6)]" />
-              A cinematic Valentine gift • made for Muskan
+              A cinematic Valentine gift • made for NITYA
             </div>
             <div className="px-3 py-1.5 rounded-full bg-white/10 border border-white/10 text-xs md:text-sm text-white/70">
               Today: {new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' })} 💌
@@ -65,7 +65,7 @@ const App: React.FC = () => {
           </div>
 
           <h1 className="relative z-10 font-playfair text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-4 text-white drop-shadow-2xl">
-            Muskan, be my <span className="text-pink-400">Valentine</span> 💘
+            NITYA, be my <span className="text-pink-400">Valentine</span> 💘
           </h1>
           <p className="relative z-10 text-white/70 text-base md:text-lg max-w-[65ch]">
             I tried to put the feeling into a little website — soft, romantic, and only for you. Every pixel is a promise, and every heart is a memory. ✨

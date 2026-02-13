@@ -21,7 +21,7 @@ export const LetterSection: React.FC<LetterSectionProps> = ({
   };
 
   const handleCopy = async () => {
-    const text = `Muskan 💘\nI made a cinematic valentine website for you.\nYou are the best part of my every day. 🫶\n\nHappy Valentine’s, my favorite person.`;
+    const text = `NITYA 💘\nI made a cinematic valentine website for you.\nYou are the best part of my every day. 🫶\n\nHappy Valentine’s, my favorite person.`;
     await navigator.clipboard.writeText(text);
     onCopy();
   };
@@ -29,7 +29,7 @@ export const LetterSection: React.FC<LetterSectionProps> = ({
   return (
     <div className="relative overflow-hidden rounded-[22px] border border-white/10 bg-black/20 p-6 md:p-8 backdrop-blur-md shadow-xl flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
       <div className="text-white/90 leading-relaxed space-y-4 text-base md:text-lg">
-        <p>Dear <strong className="text-white">Muskan</strong>,</p>
+        <p>Dear <strong className="text-white">NITYA</strong>,</p>
         <p>
           You make my days softer, my mind calmer, and my heart louder (in the best way). 
           If love had a soundtrack, your laugh would be the part I replay on a loop forever.

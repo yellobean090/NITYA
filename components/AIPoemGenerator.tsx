@@ -16,7 +16,7 @@ export const AIPoemGenerator: React.FC<AIPoemGeneratorProps> = ({ onGenerated })
       const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
       const response = await ai.models.generateContent({
         model: 'gemini-3-flash-preview',
-        contents: "Write a short, cinematic, and deeply romantic 4-line poem for a girl named Muskan. Mention stars, peace, and magic. Use a modern, soulful tone.",
+        contents: "Write a short, cinematic, and deeply romantic 4-line poem for a girl named NITYA. Mention stars, peace, and magic. Use a modern, soulful tone.",
         config: {
             systemInstruction: "You are a world-class romantic poet known for cinematic and modern metaphors.",
             temperature: 0.9,
@@ -27,7 +27,7 @@ export const AIPoemGenerator: React.FC<AIPoemGeneratorProps> = ({ onGenerated })
       onGenerated();
     } catch (error) {
       console.error(error);
-      setPoem("In the quiet glow of the stars, Muskan, you are the peace my heart finally found.");
+      setPoem("In the quiet glow of the stars, NITYA, you are the peace my heart finally found.");
     } finally {
       setLoading(false);
     }
